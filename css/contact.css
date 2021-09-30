@@ -5,6 +5,10 @@ header {
   width: 100%;
   text-align: center;
 }
+h2 {
+  font-size: 200%;
+  font-weight: 400;
+}
 body {
   font-family: "Damion";
   overflow-x: hidden;
@@ -77,10 +81,12 @@ img {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+.socials {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 svg {
   fill: #fbcc6c;
   transition: 200ms;
-}
-body {
-  overflow: hidden;
 }
