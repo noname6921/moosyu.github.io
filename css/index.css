@@ -7,6 +7,8 @@ header {
   height: 100vh;
   width: 100%;
   text-align: center;
+  color: inherit;
+  text-decoration: none
 }
 h2 {
   font-size: 200%;
@@ -38,28 +40,9 @@ nav ul li a {
   font-size: 1.5em;
 }
 
-a:link {
-  text-decoration: none;
+nav ul.slide {
+  transform: translateX(0);
 }
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-.btn{
-border-radius: 40px;
-}
-  nav ul.slide{
-    transform: translateX(0);
-  }
 
 h1 {
   margin: 0;
@@ -93,7 +76,7 @@ header > #headerSubtitle {
   margin: 0;
   color: #20232a;
 }
-header > .downloadButtons {
+header > .advertButtons {
   position: absolute;
   font-family: "Damion";
   top: 85%;
@@ -109,7 +92,7 @@ header > .downloadButtons {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.downloadButton {
+.advertButton {
   font-size: 25px;
   border-radius: 50px;
   color: white;
@@ -120,12 +103,12 @@ header > .downloadButtons {
   display: inline-block;
   border: 5px solid #662e96;
 }
-.downloadButton:hover {
+.advertButton:hover {
   color: white;
   background: #662e96;
   border: 5px solid #c65df0;
 }
-.downloadButton > a {
+.advertButton > a {
   color: white;
   text-decoration: none;
 }
